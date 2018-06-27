@@ -1,0 +1,135 @@
+h3 {
+  font-size: 23px;
+  font-weight: 400;
+  padding: 9px 0 4px;
+  line-height: 29px;
+  margin-left: 180px;
+  margin-top: 70px;
+  font-family: Arial;
+}
+
+th {
+  vertical-align: top;
+  text-align: left;
+  padding: 30px 10px 20px 0;
+  width: 200px;
+  font-family: Arial;
+  line-height: 1.3;
+  font-weight: 400;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 30px 10px 20px 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table {
+  margin-left: 180px;
+  border-collapse: collapse;
+}
+
+em {
+  font-size: 12px;
+}
+
+button {
+  background: #008ec2;
+  border-color: #006799;
+  color: #fff;
+  height: 2.3em;
+  margin-left: 180px;
+}
+
+button:hover {
+  color: #008ec2;
+  background: #fff;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.material-icons {
+    vertical-align:sub;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 50px; /* Stay at the top */
+  left: 0;
+  background-color: #23282d; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-family: Arial;
+    display: block;
+    font-size: 14px;
+    color: #f1f1f1;
+    line-height: 18px;
+    padding: 6px 8px 16px 16px;
+}
+
+.sidenav a:hover {
+    color: #42e8f4;
+    background-color: #0073aa;
+}
+
+.sidenav a i:hover {
+  color: #42e8f4;
+}
+
+.topnav {
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #23282d;
+  overflow: hidden;
+}
+
+.topnav a:hover {
+    color: #42e8f4;
+}
+
+.topnav a i:hover {
+  color: #42e8f4;
+}
+
+.topnav a {
+    float: left;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 18px;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav p {
+  color: #f2f2f2;
+  margin-left: 92%;
+  margin-top: 1.5%;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#left1 {
+  margin-left: 180px;
+  margin-top:150px;
+}
