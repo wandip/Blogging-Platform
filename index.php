@@ -1,7 +1,7 @@
 <?php
 require_once('php/Database.php');
 require_once('php/Credentials.php');
-
+// below line helps establish connection with database
 $db = new Db(DB_SERVER, DB_USER, DB_PASSWORD, DB_DATABASE);
 //var_dump($db);
 
